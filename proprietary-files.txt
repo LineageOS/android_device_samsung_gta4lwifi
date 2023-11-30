@@ -1,0 +1,9 @@
+# Device-specific proprietary files - from Samsung package version T500XXS6CWI2, unless pinned
+
+# WiFi firmware (common)
+vendor/firmware/wlan/qca_cld/bdwlan.bin
+vendor/firmware/wlan/qca_cld/grippower.info
+vendor/firmware/wlan/qca_cld/regdb.bin
+
+# WiFi firmware (for SM-T500 model)
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T500.mbn

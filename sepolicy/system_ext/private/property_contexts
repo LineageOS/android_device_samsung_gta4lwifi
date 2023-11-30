@@ -1,0 +1,3 @@
+# Default orienation for boot animation counted from natural orienation of the device
+# Id at the end corresponds to the display id on the device. See b/246793311 for context.
+ro.bootanim.set_orientation_4630946474265338241 u:object_r:surfaceflinger_prop:s0 exact enum ORIENTATION_0 ORIENTATION_90 ORIENTATION_180 ORIENTATION_270
