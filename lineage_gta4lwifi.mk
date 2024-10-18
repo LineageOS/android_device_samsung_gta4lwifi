@@ -31,13 +31,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T500
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_SYSTEM_NAME := gta4lwifixx
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=gta4lwifixx \
-    PRIVATE_BUILD_DESC="gta4lwifixx-user 12 SP1A.210812.016 T500XXS7CXB1 release-keys"
-
-BUILD_FINGERPRINT := "samsung/gta4lwifixx/gta4lwifi:11/RP1A.200720.012/T500XXS7CXB1:user/release-keys"
+    BuildDesc="gta4lwifixx-user 12 SP1A.210812.016 T500XXS7CXB1 release-keys" \
+    BuildFingerprint=samsung/gta4lwifixx/gta4lwifi:11/RP1A.200720.012/T500XXS7CXB1:user/release-keys \
+    DeviceProduct=gta4lwifixx \
+    SystemName=gta4lwifixx
