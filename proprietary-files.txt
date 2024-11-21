@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T500XXS7CXB1, unless pinned
+# Device-specific proprietary files - from Samsung package version T500XXS8CXG1, unless pinned
 
 # WiFi firmware (common)
 vendor/firmware/wlan/qca_cld/bdwlan.bin
