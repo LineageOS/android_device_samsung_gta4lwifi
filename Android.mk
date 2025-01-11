@@ -24,12 +24,4 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),gta4lwifi)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-WLANMDSP_DUMMY_FILE := $(TARGET_OUT_VENDOR)/firmware/wlanmdsp.mbn
-$(WLANMDSP_DUMMY_FILE): $(LOCAL_INSTALLED_MODULE)
-	@echo "Dummy WLAN firmware file: $@"
-	@mkdir -p $(dir $@)
-	@echo -n > $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(WLANMDSP_DUMMY_FILE)
-
 endif

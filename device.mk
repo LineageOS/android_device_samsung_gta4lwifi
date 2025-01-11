@@ -33,5 +33,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi firmware
+PRODUCT_PACKAGES += \
+    dummy_wlanmdsp.mbn
+
 # Inherit from gta4l-common
 $(call inherit-product, device/samsung/gta4l-common/gta4l.mk)
