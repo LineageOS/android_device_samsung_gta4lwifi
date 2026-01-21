@@ -31,7 +31,7 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T500
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
